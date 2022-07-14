@@ -20,7 +20,7 @@ describe '#multiplication_table' do
     it 'returns array' do
       tests = [
         test.new(3, Array),
-        test.new(5, Array)
+        test.new(5.0, Array)
       ]
       tests.each do |t|
         expect(multiplication_table(t.input)).to be_instance_of(t.want)
