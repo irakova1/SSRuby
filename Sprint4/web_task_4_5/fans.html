@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>Tennis Ground</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&family=Chivo&family=Stint+Ultra+Condensed&display=swap" rel="stylesheet">
+  </head>
+
+  <body >
+    <div class="">
+      <header class="plane">
+        <nav id="main-menu">
+          <ul class="top-menu">
+            <li class=" header-menu-text"><a href="index.html">Main</a></li>
+            <li class=" header-menu-text extended"><a href="matches.html">Matches</a> 
+            <ul class="dropdown"> 
+                <li class=" header-sub-menu-text"><a href="fans.html">Calendar</a></li>
+                <li class=" header-sub-menu-text"><a href="contacts.html">Next game</a></li>
+                <li class=" header-sub-menu-text"><a href="admin.html">Raitings</a></li>
+            </ul> </li>
+            <li class=" header-menu-text"><a href="news.html">News</a></li>
+            <li class=" header-menu-text active">Fans</li>
+            <li class=" header-menu-text"><a href="contacts.html">Contacts</a></li>
+            <li class=" header-menu-text"><a href="admin.html">Admin</a></li>
+          </ul>
+        </nav>
+        
+        <input type="checkbox" id="hamburger-input" class="burger-shower" />
+        <label id="hamburger-menu" for="hamburger-input">
+          <nav class ="plane" id="sidebar-menu">
+            <ul class="top-menu">
+              <li class=" header-menu-text"><a href="index.html">Main</a></li>
+              <li class=" header-menu-text extended"><a href="matches.html">Matches</a> 
+              <ul class="dropdown "> 
+                  <li class=" header-sub-menu-text">Calendar</li>
+                  <li class=" header-sub-menu-text"><a href="contacts.html">Next game</a></li>
+                  <li class=" header-sub-menu-text"><a href="admin.html">Raitings</a></li>
+              </ul> </li>
+              <li class=" header-menu-text"><a href="news.html">News</a></li>
+              <li class=" header-menu-text active">Fans</li>
+              <li class=" header-menu-text"><a href="contacts.html">Contacts</a></li>
+              <li class=" header-menu-text"><a href="admin.html">Admin</a></li>
+            </ul>
+          </nav>
+        </label>
+        <div class="overlay"></div>
+
+        <div class="logo"><img src="https://img.icons8.com/external-dreamstale-lineal-dreamstale/50/000000/external-tennis-sports-dreamstale-lineal-dreamstale-2.png" alt='logo'/></div>
+      </header>
+      <div class="shift"></div>
+    </div>
+
+    <main>
+      <hr style="--i:3"  class="line" >
+      <hr style="--i:2"  class="line" >
+      <hr style="--i:1"  class="line" >
+      <h1 class="title waviy">
+        <span style="--i:1">F</span>
+        <span style="--i:2">a</span>
+        <span style="--i:3">n</span>
+        <span style="--i:4">s</span>
+        <span style="--i:5"> </span>
+        <span style="--i:6">a</span>
+        <span style="--i:7">p</span>
+        <span style="--i:8">p</span>
+        <span style="--i:9">e</span>
+        <span style="--i:10">a</span>
+        <span style="--i:11">l</span>
+
+      </h1>
+      <div id= "appeals">
+        <form>
+          <div class = "form-container">
+            <textarea id="text-area" class="input-text" placeholder="Appeal text"></textarea>
+            <input id = "author-input" class="input-text" placeholder="Author name"></input>
+            <div class="btn-group">
+              <button id="btn-send" type="button" onclick="onSubmit()">Publish</button>
+              <button id="btn-clear" type="reset" onclick="onClear()">Clear</button>
+            </div>
+          </div>
+        </form>
+        <div class="appeal">
+          <section class="topics">       
+            <hr  style="--i:5" class="up-line-card">
+            <div class="topic-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+            <div class="down-string"><span>05.02.2022</span><span>Iren Smith</span></div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <hr style="--i:3" class="line" >
+      <p class="note">
+        Tennis - Copyright 2022 © - All rights reserved
+      </p>
+    </footer>
+  </body>
+  <script src="./js/fans.js"></script>
+</html>
