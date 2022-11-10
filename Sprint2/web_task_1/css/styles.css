@@ -53,6 +53,7 @@ list-style-type: none;
   justify-content: center;
   font-size: 25px;
   transition: all 0.3s;
+  position:relative;
 }
 
 .header-menu-text.active {

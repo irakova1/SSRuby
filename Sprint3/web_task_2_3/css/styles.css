@@ -17,16 +17,16 @@ header {
   width: 100%;
   position: fixed;
   display: flex;
-  z-index: 7;
+  z-index: 7; 
 }
 
 .plane{
   background-color: #fff4dbe9;
 }
 
-a {
-  text-decoration: none;
-}
+  a {
+    text-decoration: none;
+  }
 
 nav ul {
   margin: 0;
